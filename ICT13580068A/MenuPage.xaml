@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580068A.MenuPage"
+    Title="Menu"
+    Icon="Hamberger">
+
+    <Grid>
+        <Grid.RowDefinions>
+            <RowDefinions Height="150"/>
+            <RowDefinions/>
+        </Grid.RowDefinions>
+
+        <BoxView
+        Color="Green"/>
+
+        <StackLayout
+            Orientation="Horizontal"
+            VerticalOptions="End"
+            Margin="10">
+
+            <Image
+                Source="https://pbs.twimg.com/media/DHR7Fh7UwAEgkXr.jpg"
+                HeightRequest="100"
+                WidthRequest="100"
+                HorizontalOptions="Start"
+            BackgroundColor="Red"/>
+
+            <Label
+            Text="nam ratchanee"
+            TextColor="White"
+            FontAttributes="Bold"/>
+
+            <Label
+            Text="namratchanee9516@gmail.com"
+            TextColor="White"
+            FontAttributes="Bold"/>
+        </StackLayout>
+
+        <BoxView
+            Grid.Row="1"
+            Color="Gray"/>
+
+        <ScrollView
+            Grid.Row="1">
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="20">
+                
+                <Label
+                Text="View"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+                
+                <Button
+                x:Name="view"
+                Text="All View"
+                BackgroundColor="Blue"/>
+
+                <BoxView
+                Color="Fuchsia"/>
+
+                
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

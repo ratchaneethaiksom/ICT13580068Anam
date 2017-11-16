@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580068A.AbsolutePage"
+    BackgroundColor="Blue">
+    <AbsoluteLayout
+        BackgroundColor="#C8707E">
+
+        <Button
+            Text="Button"
+            BackgroundColor="#5AA08D"
+            AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,0.3"
+            AbsoluteLayout.LayoutFlags="All"/>
+    </AbsoluteLayout>
+</ContentPage>
